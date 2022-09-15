@@ -5,9 +5,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .container {
   width: 100%;
-  max-width: 85%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
@@ -26,6 +30,14 @@ li a {
   color: black;
 }
 
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 22px;
+}
+
 /* Header */
 
 header {
@@ -36,6 +48,7 @@ header {
   top: 0;
   left: 0;
   font-size: 1.2rem;
+  background-color: white;
 }
 
 .header-navbar {
@@ -55,7 +68,7 @@ header {
   align-items: center;
 }
 
-.navbar-right ul li:last-child a {
+.btn {
   color: white;
   background-color: #0361ff;
   padding: 5px 12px;
@@ -76,7 +89,42 @@ header {
 /* Jumbo */
 
 .jumbo {
-  height: 500px;
+  height: 600px;
   background-color: #b4d0e7;
   margin-top: 80px;
+}
+
+.jumbo .container {
+  padding: 70px 0;
+}
+
+.jumbo .container h2 {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+}
+
+.container-jumbo {
+  display: flex;
+}
+
+.jumbo-info {
+  flex-basis: 30%;
+}
+
+.jumbo-info p:first-child {
+  margin-bottom: 30px;
+}
+
+.jumbo-info p:nth-child(3) {
+  margin-top: 30px;
+}
+
+.fa-solid.fa-arrow-down {
+  font-size: 3rem;
+  margin-top: 40px;
+}
+
+
+.jumbo-img {
+  flex-basis: 70%;
 }
