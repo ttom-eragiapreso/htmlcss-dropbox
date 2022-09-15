@@ -1,0 +1,82 @@
+/* Reset and general */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.debug {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 1px solid black;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header */
+
+header {
+  height: 80px;
+  color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+.header-navbar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.header-navabar .navbar-left ul li:hover{
+  border-bottom: 2px solid black;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right ul li:last-child a {
+  color: white;
+  background-color: #0361ff;
+  padding: 5px 12px;
+}
+
+.navbar-left ul li, .navbar-left .logo {
+  padding-right: 20px;
+}
+
+.navbar-right ul li {
+  padding-left: 20px;
+}
+
+
+
+
+
+/* Jumbo */
+
+.jumbo {
+  height: 500px;
+  background-color: #b4d0e7;
+  margin-top: 80px;
+}
