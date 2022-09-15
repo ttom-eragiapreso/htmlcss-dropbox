@@ -11,7 +11,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 60%;
+  max-width: 65%;
   margin: 0 auto;
 }
 
@@ -122,9 +122,37 @@ header {
 .fa-solid.fa-arrow-down {
   font-size: 3rem;
   margin-top: 40px;
+  color: black;
 }
 
 
 .jumbo-img {
   flex-basis: 70%;
 }
+
+/* Style per template card */
+
+.business-plans {
+  margin-top: 100px;
+}
+
+.business-plans .container {
+  max-width: 50%;
+}
+
+.business-plans .container h3 {
+  font-size: 2.3rem;
+}
+
+.business-plans .container span:first-of-type{
+  margin-right: 10px;
+}
+
+.singolo {
+  width: calc(100% / 3);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+
