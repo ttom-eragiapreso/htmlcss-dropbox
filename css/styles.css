@@ -145,6 +145,12 @@ header {
 
 /* Style per template card */
 
+.cards-plans {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
 .business-plans {
   margin-top: 100px;
   height: 900px;
