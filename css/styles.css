@@ -38,6 +38,19 @@ p {
   line-height: 22px;
 }
 
+i {
+  margin-right: 5px;
+}
+
+hr {
+  width: 20%;
+  margin-bottom: 35px;
+}
+
+.fa-check {
+  color: blue;
+}
+
 /* Header */
 
 header {
@@ -134,25 +147,81 @@ header {
 
 .business-plans {
   margin-top: 100px;
+  height: 900px;
 }
 
 .business-plans .container {
-  max-width: 50%;
+  max-width: 60%;
 }
 
 .business-plans .container h3 {
   font-size: 2.3rem;
+  margin-bottom: 35px;
 }
 
 .business-plans .container span:first-of-type{
-  margin-right: 10px;
+  margin-right: 60px;
 }
 
 .singolo {
   width: calc(100% / 3);
-  border: 1px solid black;
+  border: 1px solid #d0d0d3;
   display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.singolo ul {
   flex-direction: column;
 }
 
+.singolo ul li {
+  margin-bottom: 15px;
+}
+
+.plan-user {
+  text-align: center;
+  border-bottom: 1px solid #d0d0d3;
+  padding: 10px 0;
+}
+
+.singolo-description {
+  padding: 0 40px;
+  padding-top: 25px;
+}
+
+.singolo-description h4 {
+  margin-bottom: 25px;
+}
+
+.plan-title {
+  margin-bottom: 18px;
+}
+
+.plan-price {
+  margin-bottom: 10px;
+}
+
+.payment-type {
+  color: #6b6866;
+  margin-bottom: 10px;
+}
+
+.features li:last-child{
+  margin-bottom: 50px;
+}
+
+.btn-prova {
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 25px;
+}
+
+.cta-link {
+  color: blue;
+}
+
+.cta{
+  margin-bottom: 35px;
+}
 
