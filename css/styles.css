@@ -479,10 +479,38 @@ header {
   display: none;
 }
 
+
+/* 
 .chevron:hover .fa-chevron-down {
   transform: rotate(180deg);
 }
 
 .chevron:hover .risposta {
   display: block;
+} */
+
+
+/* FOOTER */
+
+footer {
+  height: 600px;
+  background: black;
+}
+
+footer .container {
+  display: flex;
+  max-width: 70%;
+  padding-top: 100px;
+}
+
+.footer-column {
+  width: calc(100% / 5);
+}
+
+.footer-column ul {
+  flex-direction: column;
+}
+
+.footer-column ul li a {
+  color: white;
 }
