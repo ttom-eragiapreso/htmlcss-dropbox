@@ -498,9 +498,17 @@ footer {
 }
 
 footer .container {
-  display: flex;
+  /* display: flex; */
   max-width: 70%;
   padding-top: 100px;
+}
+
+.footer-column-container {
+  display: flex;
+}
+
+footer p:last-child {
+  color: white;
 }
 
 .footer-column {
@@ -513,4 +521,17 @@ footer .container {
 
 .footer-column ul li a {
   color: white;
+}
+
+.footer-column ul li {
+  margin-bottom: 15px;
+}
+.footer-column ul li:first-child {
+  margin-bottom: 35px;
+  font-size: 1.3rem;
+}
+
+footer .container hr {
+  margin-top: 100px;
+  width: 10%;
 }
