@@ -351,8 +351,16 @@ header {
 }
 
 .designit, .asu, .uf, .topps, .wbr, .hearst, .lonely-planet, .clear-channel {
-  min-width: 50%;
-  min-height: 50%;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.designit img, .asu img, .uf img, .topps img, .wbr img, .hearst img, .lonely-planet img, .clear-channel img{
+  filter: invert(1);
 }
 
 .designit {
@@ -386,5 +394,26 @@ header {
 
 .clear-channel {
   background-color: #ffd830;
+}
+
+.sponsor-main {
+  padding: 40px;
+}
+
+.sponsor-main h2 {
+  font-size: 3.5rem;
+}
+
+.sponsor-main p:first-of-type {
+  margin-bottom: 20px;
+}
+
+.sponsor-main p:nth-of-type(2) {
+  margin-bottom: 50px;
+}
+
+.current {
+  box-shadow: -20px 20px 0 hsl(113, 39%, 82%) inset, 20px -20px 0 hsl(113, 39%, 82%) inset;
+  box
 }
 
