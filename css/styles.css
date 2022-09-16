@@ -11,7 +11,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 65%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ img {
 }
 
 p {
-  line-height: 22px;
+  line-height: 24px;
 }
 
 i {
@@ -49,6 +49,17 @@ hr {
 
 .fa-check {
   color: blue;
+}
+
+.btn {
+  color: white;
+  background-color: #0361ff;
+  padding: 5px 12px;
+}
+
+.btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
 }
 
 /* Header */
@@ -81,12 +92,6 @@ header {
   align-items: center;
 }
 
-.btn {
-  color: white;
-  background-color: #0361ff;
-  padding: 5px 12px;
-}
-
 .navbar-left ul li, .navbar-left .logo {
   padding-right: 20px;
 }
@@ -109,6 +114,7 @@ header {
 
 .jumbo .container {
   padding: 70px 0;
+  max-width: 65%;
 }
 
 .jumbo .container h2 {
@@ -147,7 +153,8 @@ header {
 
 .cards-plans {
   display: flex;
-  gap: 50px;
+  flex-wrap: wrap;
+  gap: 5%;
   margin-bottom: 100px;
 }
 
@@ -170,7 +177,7 @@ header {
 }
 
 .singolo {
-  width: calc(100% / 3);
+  width: 30%;
   border: 1px solid #d0d0d3;
   display: flex;
   flex-direction: column;
@@ -231,3 +238,89 @@ header {
   margin-bottom: 35px;
 }
 
+
+/* Card Bottom */
+
+.singolo.bottom {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.card-bottom-flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-prova-bottom {
+  width: 24%;
+}
+
+.cta-bottom {
+  margin-top: 40px;
+}
+
+/* Photo-Info */
+
+.photo-info.container {
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 500px;
+  margin-bottom: 200px;
+}
+
+.photo {
+  flex-basis: 50%;
+}
+
+.info {
+  flex-basis: 35%;
+  padding: 0 30px;
+}
+
+.info h2 {
+  margin-bottom: 25px;
+}
+
+.info p {
+  margin-bottom: 40px;
+}
+
+.btn-lighter {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  padding: 12px 25px;
+}
+
+.btn-lighter:hover {
+  color: #6b6866;
+  cursor: pointer;
+}
+
+/* Operations Container - Card Templates */
+
+.card-container {
+  display: flex;
+  gap: 5%;
+  flex-wrap: wrap;
+}
+
+.operations h2 {
+  margin-bottom: 35px;
+  font-size: 2rem;
+}
+
+.card-template {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.card-template h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.card-image {
+  margin-bottom: 10px;
+}
