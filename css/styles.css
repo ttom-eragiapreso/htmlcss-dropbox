@@ -94,11 +94,8 @@ header {
 }
 
 .navbar-left, .navbar-right {
-  align-items: center;
-}
-
-.navbar-left {
   display: flex;
+  align-items: center;
 }
 
 .navbar-left ul li, .navbar-left .logo {
@@ -108,9 +105,6 @@ header {
 .navbar-right ul li {
   padding-left: 20px;
 }
-
-
-
 
 
 /* Jumbo */
